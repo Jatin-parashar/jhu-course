@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #bfbfbf !important;
+}
+.navbar li{
+    border-top:2px solid black;
+}
+
+@media screen and (min-width:576px) {
+    .navbar li{
+        display: none;
+    }
+}
+.row{
+    margin:0 12px !important;
+}
+.col-sm-12{
+    background-color: #bfbfbf;
+}
